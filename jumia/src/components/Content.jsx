@@ -1,6 +1,8 @@
 import "../styles/content.scss"
 import slide from "../assets/slide.png"
 import Product from "./Products";
+import CartItems from "./CartItems";
+import CartBar from "./CartBar";
 
 const Content = () => {
     return ( 
@@ -33,7 +35,9 @@ const Content = () => {
 
 
             <div className="page-content3">
-               d
+                <CartBar/>
+
+               <CartItems/>
             </div> 
 
             
