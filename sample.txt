@@ -1,0 +1,36 @@
+// Header.js
+const Header = () => (
+  <header>
+    <Logo />
+    <Navigation />
+    <SearchBar />
+    <UserLinks />
+  </header>
+);
+
+// Hero.js
+const Hero = () => (
+  <section className="hero">
+    <Carousel />
+    <CTAButton />
+  </section>
+);
+
+// ProductCard.js
+const ProductCard = ({ product }) => (
+  <div className="product-card">
+    <img src={product.image} alt={product.title} />
+    <h3>{product.title}</h3>
+    <p>{product.price}</p>
+    <button>Add to Cart</button>
+  </div>
+);
+
+// Footer.js
+const Footer = () => (
+  <footer>
+    <QuickLinks />
+    <SocialMediaIcons />
+    <NewsletterSignup />
+  </footer>
+);

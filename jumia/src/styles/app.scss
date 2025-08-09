@@ -1,0 +1,17 @@
+.app-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #fca503;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .app-container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+}
