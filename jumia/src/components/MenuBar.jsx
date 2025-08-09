@@ -3,6 +3,7 @@ import logo from "../assets/logo.png"
 import account from "../assets/account.png"
 import helps from "../assets/help.svg"
 import cart from "../assets/cart.svg"
+import Search from "./Search"
 
 const MenuBar = () => {
     return (
@@ -10,7 +11,9 @@ const MenuBar = () => {
             <div className="logo">
                 <img src={logo} alt="" />
             </div>
-            <div className="search">search</div>
+            <div className="search">
+                < Search/>
+            </div>
             <div className="account">
                 <img src={account} alt="" />
                 Account

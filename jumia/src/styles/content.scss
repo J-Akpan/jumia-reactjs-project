@@ -1,3 +1,95 @@
-.content-container{
-    height: 2333px;
+.content-container {
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+
+
+
+    .page-content {
+        width: 100%;
+        height: 350px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 20px;
+
+
+        .category {
+            flex: 1;
+            background-color: white;
+        }
+
+        .slider {
+            flex: 3;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .image {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 10px;
+
+            .contact {
+                flex: 1;
+                background-color: white;
+            }
+
+            .jumia-force {
+                flex: 1;
+                background-image: url('../assets/force.png');
+                background-size: 110%;
+                background-position: center;
+                background-repeat: no-repeat;
+                text-align: center;
+
+                p {
+                    animation: blink-animation 1s steps(2, start) infinite;
+                    color: white;
+                    font-size: 2em;
+                    font-weight: bolder;
+                    font-family: Verdana;
+                    margin-top: 65%;
+                }
+
+                @keyframes blink-animation {
+                    to {
+                        visibility: hidden;
+                    }
+
+                }
+
+            }
+        }
+
+    }
+
+    .page-content2 {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        background-color: white;
+    }
+
+    .page-content3 {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        background-color: white;
+
+
+    }
 }

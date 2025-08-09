@@ -1,0 +1,26 @@
+.search-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    text-align: right;
+    font-size: 14;
+
+
+    .search-input{
+        height: 2rem;
+        width: 67%;
+        border: thin gray solid;
+        padding: 3px;
+    }
+
+    .search-btn{
+        width: 6rem;
+        height: 2.5rem;
+        margin-left: 1rem;
+        border: none;
+        margin-right: 30px;
+        background-color: #fca503;;
+    }
+}
