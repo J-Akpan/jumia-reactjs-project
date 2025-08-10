@@ -40,8 +40,15 @@ const Content = () => {
                <CartItems/>
             </div> 
 
-             <div className="page-content">
-                <CartItems/>
+             <div className="page-content4">
+                <div className="collect">
+                     <CartItems/>
+                </div>
+
+                  <div className="collect">
+                     <CartItems/>
+                </div>
+               
                
             </div> 
 
