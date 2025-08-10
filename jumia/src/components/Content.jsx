@@ -40,10 +40,15 @@ const Content = () => {
                <CartItems/>
             </div> 
 
+             <div className="page-content">
+                <CartItems/>
+               
+            </div> 
+
             
 
             {/* <div className="page-content">
-               d
+               
             </div>  */}
 
         </div>
