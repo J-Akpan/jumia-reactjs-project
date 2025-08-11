@@ -1,0 +1,19 @@
+.text-container {
+    width: 100%;
+    height: auto;
+
+
+    p {
+        width: 94%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+
+        span{
+            font-weight: bold;
+            gap: 10px;
+        }
+    }
+
+}
